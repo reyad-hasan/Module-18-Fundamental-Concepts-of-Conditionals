@@ -33,18 +33,73 @@
 
 // Task -4 Grade_Calculator
 
-const number = 60;
+// const number = 60;
 
-if (number < 60) {
-  console.log("F");
-} else if (number <= 70) {
-  console.log("D");
-} else if (number <= 80) {
-  console.log("C");
-} else if (number <= 90) {
-  console.log("B");
-} else if (number <= 100) {
-  console.log("A");
-} else {
-  console.log("Please provide valid number");
-}
+// if (number < 60) {
+//   console.log("F");
+// } else if (number <= 70) {
+//   console.log("D");
+// } else if (number <= 80) {
+//   console.log("C");
+// } else if (number <= 90) {
+//   console.log("B");
+// } else if (number <= 100) {
+//   console.log("A");
+// } else {
+//   console.log("Please provide valid number");
+// }
+
+// Task -5 nested if-else
+
+// const myScore = 80;
+// const friendScore = 39.9;
+
+// if (myScore >= 80) {
+//   console.log("Go to your friend score.");
+//   if (myScore >= 80 && friendScore >= 80) {
+//     console.log("Go to lunch together.");
+//   } else if (friendScore >= 60 && myScore >= 80) {
+//     console.log("Good luck next time.");
+//   } else if (friendScore >= 40 && myScore >= 80) {
+//     console.log("Keep your friend's message unseen.");
+//   } else if (friendScore < 40 && myScore >= 80) {
+//     console.log("Block your friend.");
+//   }
+// } else {
+//   console.log("Go to home and sleep and act sad.");
+// }
+
+// Task -6 Ternary-operator
+
+// const num1 = 70;
+// const num2 = 60;
+// let result;
+
+// if (num1 > num2) {
+//   result = num1 * num1;
+// } else {
+//   result = num1 + num2;
+// }
+
+// console.log(result);
+
+// num1 > num2 ? console.log(num1 * num2) : console.log(num1 + num2);
+
+// Task -7 Ticket fare Calculator
+
+// const age = 44;
+// const students = false;
+
+// if (age < 10) {
+//   console.log("Free for under age 10.");
+// } else if (age >= 60) {
+//   const seniorCitizens = (800 * 15) / 100;
+//   const fareSeniorCitizens = 800 - seniorCitizens;
+//   console.log(fareSeniorCitizens);
+// } else if (students === true) {
+//   const studentsDiscount = (800 * 50) / 100;
+//   const fareStudentsDiscount = 800 - studentsDiscount;
+//   console.log(fareStudentsDiscount);
+// } else {
+//   console.log("Regular ticket fare", 800, "tk");
+// }
